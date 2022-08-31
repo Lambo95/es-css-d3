@@ -1,9 +1,170 @@
 /* IMPOSTAZIONI GENERALI */
+* {
+  max-width: 500px;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
 
 /* HEADER */
+header {
+  line-height: 3em;
+  text-align: center;
+  background-color: #00a0c6;
+}
 
+header h1 {
+  color: white;
+  text-transform: uppercase;
+}
+
+header span {
+  padding: 0;
+  text-align: center;
+  display: block;
+  background-color: white;
+  color: #00a0c6;
+}
+
+header h2 {
+  font-variant: small-caps;
+  padding: 1.5em;
+  color: black;
+}
 /* MAIN */
+body > hr {
+  margin-top: 0;
+  height: 0.5em;
+  background-color: #027794;
+  border: 0 white;
+}
 
 /* ELEMENTI NEL MAIN */
+div h2 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #037798;
+  font-weight: 600;
+  padding: 1.5em;
+}
 
+figure {
+  font-weight: 500;
+  text-align: center;
+}
+
+figure img {
+  padding: 0.8em;
+  border: 1px solid #dcdcdc;
+  margin-bottom: 0.5em;
+}
+
+address {
+  text-align: justify;
+  padding: 1.5em;
+  line-height: 1.5em;
+}
+
+address b {
+  font-weight: 800;
+}
+
+address + p {
+  margin-top: -1em;
+  padding: 1.2em;
+  font-weight: 800;
+}
+
+blockquote {
+  margin-left: 12%;
+  border-radius: 25px;
+  font-weight: 600;
+  font-style: italic;
+  width: 60%;
+  background-color: #e3e3e3;
+  padding: 2em;
+  line-height: 1.5em;
+}
+
+h2 + p {
+  line-height: 1.8em;
+  font-weight: 600;
+  margin: 0.5em 1.8em 3em 1.8em;
+}
+
+section + hr {
+  border: 1px dashed #c5c5c5;
+  margin: 0 0.8em 0 0.8em;
+}
+
+div h3 {
+  font-weight: 700;
+  margin: 0.5em 1.8em 1.5em 1.8em;
+}
+
+div h3 + p {
+  line-height: 1.8em;
+  font-weight: 600;
+  margin: 0em 1.8em 1.5em 1.8em;
+}
+
+mark {
+  background-color: #017693;
+  color: white;
+}
+
+ul {
+  margin-left: 5em;
+  text-decoration: dotted;
+  line-height: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+dl {
+  margin-left: 1.8em;
+  line-height: 2em;
+  margin-bottom: 3em;
+}
+
+dl dd {
+  text-indent: 1em;
+}
+
+dd strong {
+  color: #007495;
+}
+
+main + hr {
+  margin-top: 2em;
+  margin-bottom: 0;
+}
 /* FOOTER */
+footer {
+  text-align: center;
+  background-color: #353535;
+  line-height: 1.5em;
+}
+
+footer :first-child {
+  color: white;
+  margin-bottom: 1.5em;
+}
+
+footer p :first-child {
+  color: #ffff00;
+}
+
+footer p a {
+  color: rgb(173, 38, 38) !important;
+}
+
+footer p small {
+  color: #96969d !important;
+}
+
+footer :last-child {
+  color: white;
+  margin-bottom: 1em;
+  margin-top: 1.5em;
+}
